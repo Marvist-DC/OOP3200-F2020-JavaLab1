@@ -70,7 +70,7 @@ public class Main
         for (int player = 0; player < NUM_OF_USERS; ++player)
         {
             System.out.printf("\nScore Details for %s:\n", playerNames[player]);
-            int tempTotal = 0;
+            float tempTotal = 0;
             for (int round = 0; round < NUM_OF_GAMES; ++round)
             {
                 System.out.printf("Game #%d: %d\n", (round + 1), scores[round][player]);
